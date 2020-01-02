@@ -1,0 +1,71 @@
+.card-main {
+    margin: 10% auto 0;
+    width: 750px;
+    height: 500px;
+    background: url('image/geometric_bg3.jpg');
+    background-size: cover;
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+    font-family: "Microsoft JhengHei", "Apple LiGothic Medium", Arial, serif;
+    text-align: center;
+    overflow: hidden;
+    color:#999;
+    padding:3% 5%;
+  }
+  
+  .hr {
+    background: linear-gradient(90deg, #80808000, gray, #80808000);
+    height: 1px;
+    width: 80%;
+    border: 0;
+  }
+  
+  .who {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    border: 6px solid #eee;
+  }
+  
+  .clr {
+    color:#333;
+    /* background-color: #d4c8b5; */
+  }
+  
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    letter-spacing:3px;
+  }
+
+  h2{
+    margin: -0.5px;
+  }
+
+  h4{
+    margin: 10px;
+  }
+  
+  p{
+    padding: 0 130px;
+    margin: 12px 0;
+  }
+  .btn{
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+  }
+  .btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  .btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  .btn-outline-secondary:focus, .btn-outline-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  }
